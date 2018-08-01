@@ -1,0 +1,97 @@
+header{
+  background-color: burlywood;
+  height: 100px;  
+}
+.logo a img{
+    float: left;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+}
+.x{
+    float: left;
+}
+.cart a{
+    float: right;
+    font-size: 20px;
+    margin-top:20px;
+    margin-right: 50px;
+    color: black;
+
+}
+.details{
+   float: right;
+   margin-top:50px;
+}
+nav{
+    background-color: blueviolet;
+    margin-top: 20px;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a{
+    text-decoration: none;
+    color:black;
+    padding-left:30px;
+    
+   
+
+}
+nav ul li a img{
+ height: 50px;
+ width: 50px;   
+}
+nav ul li a :hover{
+    color:yellowgreen;
+    background-color: crimson;
+
+}
+nav ul li a.selected{
+    color: whitesmoke;
+    background-color: black;
+}
+.left{
+    float: left;
+    margin-top:30px;
+    padding-left: 20px;
+}
+.left ul{
+    list-style-type: none;
+}
+.left ul li{
+    display:block;
+}
+.left ul li a img{
+    height: 50px;
+    width: 50px;
+}
+.slide img{
+    margin-top:30px;
+    margin-left:50px;
+    margin-right: 50px;
+    height: 200;
+    width:400px;
+    padding-left: 50px;
+}
+.right{
+    float: right;
+    margin-top:30px;
+    margin-left: 50px;
+    padding-right: 20px;
+}
+.right ul{
+    list-style-type: none; 
+}
+.right ul li{
+    display:block;
+    
+}
+.right ul li a img{
+    
+    height: 50px;
+    width: 50px;
+}
